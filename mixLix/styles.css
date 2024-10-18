@@ -1,0 +1,339 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color:#D2C8B0;;
+   padding-left: 10px;
+   padding-right: 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  
+
+   
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff9800;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+footer {
+    background-color: #4D5E25;
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+   
+    
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, button {
+    margin: 10px 0;
+    width: 80%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+.comeco{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.contato{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    
+}
+.bem{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.logo{
+    width: 200px;
+}
+.conteiner{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #4D5E25;
+    height: 50px;
+    padding: 10px;
+}
+a{
+    color: white;
+    font-size: 30px;
+}
+h7{
+    font-size: 40px;
+}
+.aqui{
+    font-size: 25px
+    ;
+}
+.restaurante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 60px;
+    padding-left: 100px;
+}
+.suave{
+    width: 300px;
+    font-size: 25px;
+    padding-left: 40px;
+    align-content: end;
+    justify-content: center;
+}
+
+
+
+.imagens img {
+    width: 500px; /* Ajuste conforme necessário */
+    margin: 10px; /* Espaço entre as imagens */
+    transition: filter 0.3s ease; /* Transição suave para o efeito */
+}
+
+.imagens img:hover {
+    filter: brightness(50%); /* Escurece apenas a imagem que está sendo sobrevoada */
+}
+
+
+.containerimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.contato1{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    align-items: center;
+}
+.redes {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center ;
+}
+.fa{
+    height: 50px;
+    width: 50px;
+}
+.conosco{
+    padding-top: 34px;
+     justify-content: center;
+     align-items: center;
+     text-align:center;
+     color: #93918E;
+     width: 45%;
+     
+    
+    
+}
+.fala{
+  
+    font-size: 30px;
+    font-weight: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+   
+}
+.dias{
+    padding-top: 24px;
+    
+}
+.logo2{
+    width: 450px;
+    height: 400px;
+
+    
+}
+h6{
+    font-size: 30px;
+    
+}
+
+.cardap{
+
+  background-image: url(img/pexels-brigitte-tohm-36757-239581.jpg);
+  width: auto;
+  height: 500px;
+  margin: 0;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  background-position: center;
+
+ 
+}
+h3{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 100px;
+}
+.mix{
+    font-size: 35px;
+    width: 1300px;
+    color: white;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+.linha{
+    padding: 10px;
+}
+.rapido{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(img/fundo\ rapido.jpg);
+     
+}
+.lado{
+    padding: 100 100 100 100px;
+    width: 400px;
+    height: 400px;
+    padding-right: 100px;
+    font-weight: bold;
+}
+h4{
+    letter-spacing: 3px;
+    font-weight: 300px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white
+}
+.corrido{
+    width: 400px;
+    height: 300px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.reset{
+    display: flex;
+    background-image: url(img/resta.jpg);
+}
+.avaliacao{
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: wheat;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    border: solid black 1px;
+    letter-spacing: 3px;
+}
+.avali{
+    padding: 10 10 20 20PX;
+    margin: 10px;
+}
+.linha2{
+    background-color: black;
+    height: 2px;
+    margin-top: 5px;
+}
+.linha3{
+    background-color: black;
+    height: 2px;
+    margin-top: 5px;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.insta{
+    width: 50px;
+    border-radius: 60px;
+    padding: 50px;
+}
+.inste{
+    text-decoration: underline;
+
+}
