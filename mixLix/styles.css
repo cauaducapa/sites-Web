@@ -1,4 +1,7 @@
-/* Estilos Gerais */
+@font-face {
+    font-family: "classico";
+    src: url(fonte/YesevaOne-Regular.ttf);
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -49,18 +52,6 @@ h1 {
     color: #333;
 }
 
-footer {
-    background-color: #4D5E25;
-    color: white;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-   
-    
-}
 
 /* Estilos para o formulário */
 form {
@@ -210,7 +201,7 @@ h7{
   
     font-size: 30px;
     font-weight: bold;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family:"classico";
    font-style: italic;
    
 }
@@ -244,7 +235,7 @@ h6{
 }
 h3{
     font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:"classico" ;
     color: white;
     letter-spacing: 3px;
     font-weight: 100px;
@@ -330,10 +321,329 @@ span{
 }
 .insta{
     width: 50px;
-    border-radius: 60px;
+    border-radius: 70px;
     padding: 50px;
 }
 .inste{
     text-decoration: underline;
+    font-size: 40px;
 
+}
+.display{
+    justify-content: center;
+    text-align: center;
+align-items: center;
+}
+.foto1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+align-items: center;
+letter-spacing: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.comidas{
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+}
+.desc{
+    width: 350px;
+    padding-right: 100px;
+    padding-left: 10px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.titulo{
+    font-family: "classico";
+    font-size: 45px;
+    font-weight: bold;
+}
+.prato{
+    font-size: 60px;
+}
+.restauranteFundo{
+    background-image: url(img/RESTAURANTE.PNG);
+    height: 420px;
+    width: 2000px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+  
+  
+}
+.agenda{
+    font-family: "classico";
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+.palco{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+.button{
+    height: 50px;
+    font-size: 20px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    color: orange;
+    color: white;
+}
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4D5E25;
+}
+.mix1{
+    width: 400px;
+    height: 400px;
+    padding-left: 50px;
+}
+.hora{
+    padding: 100px;
+    font-size: 30px;
+}
+.final{
+    margin-left: 400px;
+    text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+}
+.segu{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.fina1{
+    padding-top: 20px;
+    margin-right: 200px;
+}
+.hora{
+    font-family: "classico";
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+}
+.linha3{
+    padding: 20px;
+    height: 30px;
+    background-color: transparent;
+}
+.pratos{
+    font-size: 30px;
+    font-family: "classico";
+    font-weight: bold;
+    font-style: italic;
+}
+button {
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: orange;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+  }
+  
+  button::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: white;
+    transform-origin: center;
+    transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 0);
+    transition: transform 0.45s ease-in-out;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    color: #161616;
+  }
+  
+  button:hover::before {
+    transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
+  }
+ 
+  
+/* MENU STYLE--------------------------------------------------------------------- */
+
+.comeco{
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #4D5E25;
+}
+.cardapio{
+    font-family: "classico";
+    font-size: 60px;
+    font-weight: bold;
+    width: auto;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+}
+.comidinhas{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+     margin-left: 20%;
+     margin-right: 20%
+}
+.comido{
+    height: 400px;
+    width: 400px;
+}
+.simples{
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.preco{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.prato1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.prato1{
+    border: 2px solid transparent; /* Borda invisível por padrão */
+    transition: border-color 0.3s; /* Animação suave para a mudança de cor */
+}
+
+.prato1:hover{
+    border-color: #000; /* Altera a cor da borda ao passar o mouse */
+}
+.valor{
+    font-size: 30px;
+    font-weight: bold;
+}
+.prato2{
+    border: 2px solid transparent; /* Borda invisível por padrão */
+    transition: border-color 0.3s; /* Animação suave para a mudança de cor */
+}
+
+.prato2:hover{
+    border-color: #000; /* Altera a cor da borda ao passar o mouse */
+}
+.somos{
+    font-family: "classico";
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+.linha4{
+    background-color: #000  ;
+    height: 2px;
+}
+.costela{
+    height: 600px;
+    width: 900px;
+    padding-top: 20px;
+}
+.custela{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    width: 1200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+
+}
+.drin{
+    font-size: 40px;
+    font-family: "classico";
+    font-weight: bold;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     color: black;
+     text-decoration: underline;
+     
+}
+.drink{
+    font-size: 40px;
+    font-family: "classico";
+    font-weight: bold;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     color: black;
+     margin-top: 20px;
+}
+
+
+.limao{
+    height: 600px;
+    width: 1400px;
+    margin-left: 300px;
+}
+.linha{
+    background-color: black;
+    height: 1px;
+    width: auto;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+/* Reserva--------------------------------------------------------------------- */
+
+.Agendamento{
+    margin: 5%;
+}
+.Agenda{
+    font-size: 40px;
+    font-family: "classico";
+    font-weight: bold;
+}
+.arrumar{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.but{
+    padding-top: 20px;
+}
+.caixa{
+    height: 40px;
+    font-size: 20px;
 }
