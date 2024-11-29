@@ -69,6 +69,32 @@ footer {
    margin: 2%;
     width: 1000px;
 }
+.carrossel {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carrossel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+
+.preto{
+  background-color: black;
+  height: 2px;
+}
 
 .miranha{
     color: white;
